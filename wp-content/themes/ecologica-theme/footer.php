@@ -12,19 +12,30 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ecologica-theme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'ecologica-theme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'ecologica-theme' ), 'ecologica-theme', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<section class="top">
+            <div>
+                <img src="" alt="logo Ecologica">
+            </div>
+            <div>
+                 <div>
+                     <h1>Vous avez des question ?</h1>
+                 </div>
+                 <div class="robot"></div>
+            </div>
+            <div>
+                <h1>Nous-Contactez</h1>
+                <uL>
+                    <li>adresse mail</li>
+                    <li>Nom/prénom</li>
+                    <li>services</li>
+                </uL>
+            </div>
+        </section>
+
+        <section class="bot">
+            <div>Copyright © 2022 – Break-Out Company – Agence de communication</div>
+            <div>Politique de confidentialité – Mentions légales</div>
+        </section>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
