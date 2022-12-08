@@ -59,8 +59,52 @@ get_header();
     </p>
 
     </div>
+    <br>
+    <br>
+    <h2> Les Formations, du Bachelor au Master </h2>
+    <br>
+    <section class="divs">
+        
+        <div class="div1">
+            
+            </div>
 
+    
+        
 
+        <div class="div2">
+            
+    
+        </div>
+        
+    
+
+    
+       
+    
+        <div class="div3">
+        
+    
+        </div>
+
+        
+
+        </section>
+       <section class="p">
+        <p>-------</p>
+        <p>-------</p>
+        <p>-------</p>
+
+        <p>-------</p>
+        <p>-------</p>
+        <p>-------</p>
+
+        <p>-------</p>
+        <p>-------</p>
+        <p>-------</p>
+
+       </section>
+      
       
       
 

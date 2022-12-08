@@ -23,12 +23,50 @@ div:nth-of-type(3) {
 }
 
 .customimg {
-  width: 120%;
-  height: 120%;
+  width: 40%;
+  height: 40%;
   padding-left: 50px;
 }
 
 .cust-div-1 {
   display: inline-flex;
   gap: 40px;
+}
+
+.divs {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(189, 189, 189);
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.divs .div1 {
+  background-color: black;
+  border-radius: 10px;
+  width: 30%;
+  height: 30vh;
+}
+.divs .div2 {
+  background-color: black;
+  border-radius: 10px;
+  width: 30%;
+  height: 30vh;
+}
+.divs .div3 {
+  background-color: black;
+  border-radius: 10px;
+  width: 30%;
+  height: 30vh;
+}
+
+.p {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(189, 189, 189);
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
