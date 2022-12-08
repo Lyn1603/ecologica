@@ -44,8 +44,21 @@ get_header();
      
 
     <h2>  Ecologica - votre école superieur </h2>
+    <br>
+    <div class="cust-div-1">
+    <?php
+    echo wp_get_attachment_image(9, "full", false, [
+        "class" => "customimg"
+    ]);    
+    ?>
 
-    <img src="" alt="" srcset="">
+    <p>
+        TEXT
+        TEXT
+        TEXT 
+    </p>
+
+    </div>
 
 
       
