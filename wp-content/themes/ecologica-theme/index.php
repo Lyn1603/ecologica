@@ -24,19 +24,21 @@ get_header();
     <section class="icons">
         
     <div class="p1">
-            <i> ICON </i>
+            <h2> ICON 1 </h2>
+            <p> L'école de la transition résiliente</p>
         </div>
 
 
     <div class="p2">
-    <i> ICON </i>
+    <h2> ICON 2 </h2>
 
     </div>
 
    
 
     <div class="p3">
-    <i> ICON </i>
+            <h2> ICON 1 </h2>
+            <p> L'école de la transition résiliente</p>
 
     </div>
 
@@ -90,20 +92,9 @@ get_header();
         
 
         </section>
-       <section class="p">
-        <p>-------</p>
-        <p>-------</p>
-        <p>-------</p>
-
-        <p>-------</p>
-        <p>-------</p>
-        <p>-------</p>
-
-        <p>-------</p>
-        <p>-------</p>
-        <p>-------</p>
-
-       </section>
+     <p>text </p>
+     <p>text </p>
+     <p>text </p>
       
       
       
