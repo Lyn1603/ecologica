@@ -13,7 +13,7 @@
  */
 get_header();
 ?>
-        <link rel="stylesheet" href="wp-content/themes/ecologica-theme/style.css">
+        <link rel="stylesheet" href="../wp-content/themes/ecologica-theme/style.css">
         <br>
         <br>
         <br>
@@ -22,28 +22,6 @@ get_header();
 	<main>
 
     <section class="icons">
-        
-    <div class="p1">
-            <h2> ICON 1 </h2>
-            <p> L'école de la transition résiliente</p>
-        </div>
-
-
-    <div class="p2">
-    <h2> ICON 2 </h2>
-
-    </div>
-
-   
-
-    <div class="p3">
-            <h2> ICON 1 </h2>
-            <p> L'école de la transition résiliente</p>
-
-    </div>
-
-    </section>
-     
 
     <h2>  Ecologica - votre école superieur </h2>
     <br>
@@ -60,11 +38,10 @@ get_header();
         TEXT 
     </p>
 
-    </div>
-    <br>
-    <br>
+
+    </section>
+     
     <h2> Les Formations, du Bachelor au Master </h2>
-    <br>
     <section class="divs">
         
         <div class="div1">
@@ -80,24 +57,50 @@ get_header();
         </div>
         
     
-
-    
-       
-    
         <div class="div3">
         
     
         </div>
+       
+        </section>
+      
 
-        
+
+        <section class="formations">
+
+        <h2> Comment participer et soutenir l'école</h2>
+
+
+        <p> TEXT TEXT TEXT</p>
+
+
+        <button>
+            Text
+        </button>
+
 
         </section>
-     <p>text </p>
-     <p>text </p>
-     <p>text </p>
-      
-      
-      
+
+
+        <h2> FORMULAIRE </h2>
+
+        <form action="" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="nom" name="user_name">
+        <label for="mail">Prenom :</label>
+        <input type="text" id="prenom" name="user_prenom">
+        <label for="msg"> Adresse de messagerie :</label>
+        <input type="text" id="adresse" name="user_msg">
+        <label for="msg"> Liste selective :</label>
+        <select name="who" id="who">
+            <option value="étudiant"></option>
+            <option value="parent d'élève"></option>
+        </select>
+
+        <button> S'abonner </button>
+
+        </form>
+
 
     </main><!-- #main -->
 
