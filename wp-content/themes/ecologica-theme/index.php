@@ -20,27 +20,30 @@ get_header();
         <br>
 
 	<main>
-
-    <section class="icons">
-
     <h2>  Ecologica - votre école superieur </h2>
     <br>
-    <div class="cust-div-1">
+    <section class="icons">
+
     <?php
-    echo wp_get_attachment_image(9, "full", false, [
-        "class" => "customimg"
+    echo wp_get_attachment_image(16, "full", false, [
+        "class" => "illu1"
     ]);    
     ?>
-
+    <br>
+    <div class="cust-div-1">
     <p>
         TEXT
         TEXT
         TEXT 
     </p>
 
-
+    
     </section>
-     
+    <?php
+    echo wp_get_attachment_image(17, "full", false, [
+        "class" => "illu2"
+    ]);    
+    ?>
     <h2> Les Formations, du Bachelor au Master </h2>
     <section class="divs">
         

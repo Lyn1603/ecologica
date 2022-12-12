@@ -1,3 +1,5 @@
+  /*  INDEX.PHP  */
+
  /* ECOLOGICA VOTRE ECOLE SUPERIEUR  */
 
 .icons {
@@ -22,16 +24,22 @@
   div:nth-of-type(3) {
     grid-column: 1/3;
     grid-row: 4/6;
-
-
-    
+   
   }
 
- .customimg{
-    width: 40%;
-    height: 40%;
-    padding-left: 50px;
- }
+
+  .illu1{
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 10px 5px 5px orange;
+
+  }
+
+  .illu2{
+    width: 100%;
+    height: 10%;
+
+  }
 
  .cust-div-1{
     display: inline-flex;
@@ -50,27 +58,30 @@
 
     .div1{
 
-        background-color: rgb(193, 193, 193);
-        border-radius: 10px;
-        width: 30%;
-        height: 30vh;
+      background-color: rgb(245, 245, 245);
+      box-shadow: 10px 5px 5px rgb(181, 223, 241);
+      border-radius: 10px;
+      width: 30%;
+      height: 60vh;
         
     }
 
      .div2{
 
-        background-color: rgb(194, 194, 194);
+      background-color: rgb(245, 245, 245);
+        box-shadow: 10px 5px 5px rgb(181, 223, 241);
         border-radius: 10px;
         width: 30%;
-        height: 30vh;
+        height: 60vh;
      }
 
       .div3{
 
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(245, 245, 245);
+        box-shadow: 10px 5px 5px rgb(181, 223, 241);
         border-radius: 10px;
         width: 30%;
-        height: 30vh;
+        height: 60vh;
 
       }
   }
@@ -87,8 +98,20 @@
 
 
   .formations {
-    background-color:rgb(158, 165, 163);
+    background-color:rgb(2, 33, 85);
     width: 100%;
     height: 70vh;   
   }
 
+
+    /*  NOTRE ECOLE.PHP  */
+
+
+
+    .custom{
+
+      width: 50%;
+      height: 50%;
+
+  
+   }
