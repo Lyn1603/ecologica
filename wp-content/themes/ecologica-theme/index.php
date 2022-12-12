@@ -21,24 +21,35 @@ get_header();
 
 	<main>
     <h2>  Ecologica - votre école superieur </h2>
+
     <br>
-    <section class="icons">
+    <div class="notre-ecole">
 
     <?php
     echo wp_get_attachment_image(16, "full", false, [
         "class" => "illu1"
     ]);    
     ?>
+
     <br>
-    <div class="cust-div-1">
+
     <p>
         TEXT
         TEXT
         TEXT 
     </p>
 
+    </div>
+
+
     
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php
     echo wp_get_attachment_image(17, "full", false, [
         "class" => "illu2"
@@ -71,19 +82,19 @@ get_header();
         <section class="buttons">
         
         <button class="b1">
-            
+            Candidatez
             </button>
 
     
         
 
             <button class="b2">
-            
+            Candidatez
             </button>
         
     
             <button class="b3">
-            
+            Candidatez
             </button>
        
         </section>
