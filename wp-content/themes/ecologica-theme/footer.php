@@ -11,30 +11,63 @@
 
 ?>
 
+<link rel="stylesheet" href="wp-content/themes/ecologica-theme/built.css">
 	<footer id="colophon" class="site-footer">
 		<section class="top">
-            <div>
-                <img src="" alt="logo Ecologica">
+            <div class="left-footer">
+                <?php
+                echo get_custom_logo( 0 );
+                
+                echo wp_get_attachment_image(17, "full", false, [
+                    "class" => "customimg"
+                ]); 
+                
+                ?>
+                <img src="" alt="bot-ecologica">
+                <button class="download" >télécharger la documentation</button>
             </div>
-            <div>
-                 <div>
-                     <h1>Vous avez des question ?</h1>
-                 </div>
-                 <div class="robot"></div>
+            <div id="cont-link">
+                <h1>Navigation</h1>
+                <li id="list-foot">
+                    <ul><a href="">accueil</a></ul>
+                    <ul><a href="">Ecologica</a></ul>
+                    <ul><a href="">Ecologica dans les médias</a></ul>
+                    <ul><a href="">les formations</a></ul>
+                    <ul><a href="">Candidater</a></ul>
+                    <ul><a href="">Contact</a></ul>
+                </li>
             </div>
-            <div>
-                <h1>Nous-Contactez</h1>
-                <uL>
-                    <li>adresse mail</li>
-                    <li>Nom/prénom</li>
-                    <li>services</li>
-                </uL>
+            <div id="cont-link">
+                <h1>Ecologica</h1>
+                <li id="list-foot">
+                    <ul><a href="">L'école</a></ul>
+                    <ul><a href="">la gouvernance</a></ul>
+                    <ul><a href="">admissions et tarifs</a></ul>
+                    <ul><a href="">la vie étudiante</a></ul>
+                    <ul><a href="">le réseau ecologica</a></ul>
+                </li>
             </div>
+            <div id="cont-link">
+                <h1>Nous Contactez</h1>
+
+                <div id="cont-contact">
+                    <h2>Téléphone:</h2>
+                    <p id="misc-info">+33 7 82 31 78 64</p>
+                </div>
+                <div>
+                    <h2>Email:</h2>
+                    <p id="misc-info">contact@ecologica.education</p>
+                </div>
+
+            </div>
+
         </section>
 
         <section class="bot">
-            <div>Copyright © 2022 – Break-Out Company – Agence de communication</div>
-            <div>Politique de confidentialité – Mentions légales</div>
+            <div class="bot_var_txt">
+                <p>Copyright © 2022 –</p> <p id="var-txt"> Break-Out Company </p> <p>– Agence de communication</p>
+            </div>
+            <div id="var-txt">Politique de confidentialité – Mentions légales</div>
         </section>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

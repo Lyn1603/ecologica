@@ -1,0 +1,124 @@
+$font-first: Comfortaa,sans-serif;
+$font-second: Messiri;
+$primary-color: #293c4b;
+$orange_color: #EE8543;
+$white-color: #FFFFFF;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: $white-color;
+  font-family: Comfortaa,sans-serif;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+	font-family: 'Comfortaa';
+	src: url(‘/fonts/Comfortaa-VariableFont_wght’) format(‘truetype’),
+}
+@font-face{
+	font-family: 'Messiri';
+	src: url(‘/fonts/ElMessiri-VariableFont_wght’) format(‘truetype’),
+}
+
+.site-footer{
+  border: 2px solid grey;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-color;
+}
+.top{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 40vh;
+
+}
+.bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-size: 15px;
+  padding: 10px;
+}
+.top-gouv{
+  border: solid grey 2 px;
+  width: 100%;
+  height: 25%;
+}
+.mid-gouv{
+  border: solid grey 2 px;
+  width: 100%;
+  height: 50%;
+}
+.bot-gouv{
+  border: solid grey 2 px;
+  width: 100%;
+  height: 25%;
+}
+#gouvernance{
+  border: solid grey 2 px;
+  width: 50%;
+  height: 20%;
+
+}
+
+#cont-link ul{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+
+}
+h1{
+  font-size: 20px;
+
+}
+h2{
+  font-size: 15px;
+
+}
+#cont-contact{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#list-foot{
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+.download{
+  background-color: #EE8543;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+}
+.left-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.customimg{
+  width: 85%;
+  height: auto;
+}
+.bot_var_txt{
+  display: flex;
+  flex-direction: row;
+}
+#var-txt{
+  color: #A5CBC6;
+}
+#misc-info{
+  margin-top: 15px;
+}

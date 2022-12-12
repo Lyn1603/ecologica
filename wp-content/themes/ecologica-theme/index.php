@@ -13,45 +13,49 @@
  */
 
 get_header();
+
 ?>
 
-	<main id="primary" class="site-main">
+    <section>
+        <div class="top-gouv">
+            <h1>Une gouvernance réellement partagée entre tous les acteurs d’Ecologica</h1>
+            <p></p>
+            <div>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+            </div>
+        </div>
 
-		<?php
-		if ( have_posts() ) :
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
+        <div class="mid-gouv">
+            <h1>Les différents niveaux de gouvernance</h1>
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+            <p></p>
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+            <div id="gouvernance">
 
-			endwhile;
+            </div>
+            <div id="gouvernance">
 
-			the_posts_navigation();
+            </div>
+            <div id="gouvernance">
 
-		else :
+            </div>
+            <p></p>
 
-			get_template_part( 'template-parts/content', 'none' );
+        </div>
 
-		endif;
-		?>
 
-	</main><!-- #main -->
+        <div class="bot-gouv">
+            <h1>Une vie étudiante dynamique et facilitée</h1>
+            <article></article>
+
+        </div>
+    </section>
 
 <?php
-get_sidebar();
+
 get_footer();
