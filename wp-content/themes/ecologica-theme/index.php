@@ -13,7 +13,7 @@
  */
 get_header();
 ?>
-        <link rel="stylesheet" href="../wp-content/themes/ecologica-theme/style.css">
+        <link rel="stylesheet" href="../style.css">
         <br>
         <br>
         <br>
@@ -64,6 +64,27 @@ get_header();
         
     
         </div>
+       
+        </section>
+
+
+        <section class="buttons">
+        
+        <button class="b1">
+            
+            </button>
+
+    
+        
+
+            <button class="b2">
+            
+            </button>
+        
+    
+            <button class="b3">
+            
+            </button>
        
         </section>
       

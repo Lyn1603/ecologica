@@ -1,11 +1,10 @@
-  /*  INDEX.PHP  */
+  /* 1- INDEX.PHP  */
 
  /* ECOLOGICA VOTRE ECOLE SUPERIEUR  */
 
 .icons {
     display: inline-flex;
     gap: 20px;
-
     width: 100%;
     height: 50vh;  
 
@@ -31,7 +30,7 @@
   .illu1{
     width: 40vw;
     height: 40vh;
-    box-shadow: 10px 5px 5px orange;
+    box-shadow: 10px 5px 5px rgba(238, 133, 67, 1);
 
   }
 
@@ -50,39 +49,83 @@
 
  .divs {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     display: inline-flex;
     justify-content: center;
     justify-content: space-between;
+    justify-content: space-around;
+
     align-items: center;
 
     .div1{
 
       background-color: rgb(245, 245, 245);
-      box-shadow: 10px 5px 5px rgb(181, 223, 241);
+      box-shadow: 10px 5px 5px rgba(165, 203, 198, 1);
       border-radius: 10px;
-      width: 30%;
-      height: 60vh;
+      width: 20%;
+      height: 40vh;
         
     }
 
      .div2{
 
       background-color: rgb(245, 245, 245);
-        box-shadow: 10px 5px 5px rgb(181, 223, 241);
+        box-shadow: 10px 5px 5px rgba(3, 150, 123, 1);
         border-radius: 10px;
-        width: 30%;
-        height: 60vh;
+        width: 20%;
+        height: 40vh;
      }
 
       .div3{
 
         background-color: rgb(245, 245, 245);
-        box-shadow: 10px 5px 5px rgb(181, 223, 241);
+        box-shadow: 10px 5px 5px rgba(238, 133, 67, 1);
         border-radius: 10px;
-        width: 30%;
-        height: 60vh;
+        width: 20%;
+        height: 40vh;
 
+      }
+  }
+
+  .buttons {
+    width: 100%;
+    height: 50vh;
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    align-items: center;
+
+    .b1{
+      position: relative;
+      bottom: 185px;
+      left: 10px;
+      width: 197px;
+      height: 55px;
+      background: #A5CBC6;
+      border-radius: 5px;
+        
+    }
+
+     .b2{
+      position: relative;
+      width: 197px;
+      height: 55px;
+      bottom: 185px;
+      left: 10px;
+      background: #03967B;
+      border-radius: 5px;
+     }
+
+      .b3{
+      position: relative;
+      width: 197px;
+      height: 55px;
+      bottom: 185px;
+      left: 10px;
+      background: #EE8543;
+      border-radius: 5px;
       }
   }
 
@@ -98,20 +141,15 @@
 
 
   .formations {
-    background-color:rgb(2, 33, 85);
+    background-color:rgb(71, 84, 107);
     width: 100%;
     height: 70vh;   
   }
 
-
-    /*  NOTRE ECOLE.PHP  */
-
-
+    /* 2-  NOTRE ECOLE.PHP  */
 
     .custom{
-
       width: 50%;
       height: 50%;
-
   
    }
