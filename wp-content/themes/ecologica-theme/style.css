@@ -34,21 +34,21 @@
 }
 .divs .div1 {
   background-color: rgb(245, 245, 245);
-  box-shadow: 10px 5px 5px rgb(165, 203, 198);
+  box-shadow: 10px 5px 5px #A5CBC6;
   border-radius: 10px;
   width: 20%;
   height: 40vh;
 }
 .divs .div2 {
   background-color: rgb(245, 245, 245);
-  box-shadow: 10px 5px 5px rgb(3, 150, 123);
+  box-shadow: 10px 5px 5px #99BC9D;
   border-radius: 10px;
   width: 20%;
   height: 40vh;
 }
 .divs .div3 {
   background-color: rgb(245, 245, 245);
-  box-shadow: 10px 5px 5px rgb(238, 133, 67);
+  box-shadow: 10px 5px 5px #619B8A;
   border-radius: 10px;
   width: 20%;
   height: 40vh;
@@ -97,11 +97,14 @@
 }
 
 /* DONS */
-.formations {
-  background-image: url(../ecologica-theme/images/banner-couleurs-ecologica-removebg-preview.png);
-  background-size: cover;
-  width: 100%;
-  height: 70vh;
+.dons {
+  background-color: #A5CBC6;
+  -webkit-clip-path: path("M 757.769 42.941 C 480.261 27.0172 282.113 -6.46439 -5 42.9403 V 489.764 C 272.508 453.784 335.693 473.273 602.587 489.764 C 988.569 513.614 1275.89 427.798 1517 453.784 V 6.52807 C 1249.6 -23.3885 1058.72 60.2102 757.769 42.941 Z");
+          clip-path: path("M 757.769 42.941 C 480.261 27.0172 282.113 -6.46439 -5 42.9403 V 489.764 C 272.508 453.784 335.693 473.273 602.587 489.764 C 988.569 513.614 1275.89 427.798 1517 453.784 V 6.52807 C 1249.6 -23.3885 1058.72 60.2102 757.769 42.941 Z");
+  height: 90vh;
+}
+.dons .soutenir {
+  height: 30%;
 }
 
 /* 2-  NOTRE ECOLE.PHP  */

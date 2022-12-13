@@ -13,6 +13,7 @@
  */
 
 get_header();
+the_content();
 ?>
 
 	<main id="primary" class="site-main">
@@ -22,5 +23,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
