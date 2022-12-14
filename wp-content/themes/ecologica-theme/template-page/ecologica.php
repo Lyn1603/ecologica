@@ -1,17 +1,36 @@
 <?php
-
 /**
  * Template Name: Ecologica
  */
 
-
-include 'wp-content/themes/ecologica-theme/template-page/template/navbar.php';
-
+get_header();
 ?>
 
-<p> Ecologica <p>
 
+    <main id="primary" class="site-main body-image">
 
-<style>
+        <?php
+        while ( have_posts() ) :
+            the_post();
 
-</style>
+            if(is_front_page()):
+?>
+                <div class="content-homepage">
+                <?php the_content();?>
+                </div>
+
+            <?php
+            else:
+                ?>
+                <div class="Banner-other-page"><p><?php the_title()?></p></div>
+                <?php
+            endif;
+
+        endwhile; // End of the loop.
+        ?>
+
+    </main><!-- #main -->
+
+<?php
+
+get_footer();
