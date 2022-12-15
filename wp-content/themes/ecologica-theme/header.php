@@ -29,14 +29,15 @@
 		<div class="site-branding">
 		<?php
     	echo wp_get_attachment_image(83, "full", false, [
-        "class" => "customimg"
+        "class" => "customimg",
+		
+		
     ]);    
     ?>
+			<h1>Ecologica</h1>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-		<h1> Ecologica </h1>
-
 			<?php
 			wp_nav_menu(
 				array(
