@@ -14,9 +14,7 @@
 get_header();
 the_content();
 ?>
-    <?php
-        require "./canva.php";
-    ?>
+   
 
 
     </main><!-- #main -->
