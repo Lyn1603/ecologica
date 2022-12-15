@@ -3,6 +3,7 @@ $font-second: Messiri;
 $primary-color: #293c4b;
 $orange_color: #EE8543;
 $white-color: #FFFFFF;
+$skyblue-color: #A5CBC6;
 
 *{
   margin: 0px;
@@ -16,15 +17,14 @@ a{
 }
 @font-face {
 	font-family: 'Comfortaa';
-	src: url(‘/fonts/Comfortaa-VariableFont_wght’) format(‘truetype’),
-}
-@font-face{
-	font-family: 'Messiri';
-	src: url(‘/fonts/ElMessiri-VariableFont_wght’) format(‘truetype’),
+	src: url(‘/fonts/Comfortaa-VariableFont_wght’) format(‘truetype’);
+  font-family: 'Messiri';
+	src: url(‘/fonts/ElMessiri-VariableFont_wght’) format(‘truetype’);
+  font-family: 'ElMessiri';
+	src: url(‘/fonts/ElMessiri-Regular’) format(‘truetype’);
 }
 
 .site-footer{
-  border: 2px solid grey;
   width: 100%;
   height: 40%;
   display: flex;
@@ -121,4 +121,116 @@ h2{
 }
 #misc-info{
   margin-top: 15px;
+}
+
+.area1{
+  content: '';
+  border-bottom-left-radius: 50% 13em;
+  border-bottom-right-radius: 50% 13em;
+  width: 100vw;
+  background-color: #A5CBC6;
+  height: 40vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  .two_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+  }
+  button{
+  background-color: $primary-color;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  }
+  .gtf{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    h3{
+      font-family: ElMessiri;
+      color: $primary-color;
+      font-size: 60px;
+    }
+    h4{
+      font: $font-second;
+      color: $primary-color;
+      font-size: 35px;
+    }
+  }
+}
+
+.area2{
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  h4{
+    font: $font-first;
+    color: $primary-color;
+    font-size: 25px;
+  }
+  .img-A2{
+    width: 30%;
+    height: auto;
+    box-shadow: 6px 6px 0px 6px #ee8543;
+    border-radius: 10px;
+    border: none;
+  }
+  .content_A2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    div{
+      color: $primary-color;
+      width: 30%;
+    }
+  }
+}
+
+.area3{
+  background-color: $skyblue-color;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  h3{
+    color: $white-color;
+    font-family: Messiri,sans-serif;
+    font-size: 50px;
+  }
+  .content_A3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    div{
+      color: $primary-color;
+      width: 25%;
+      height: 416px;
+      background-color: $white-color;
+      border-radius: 10px;
+      box-shadow: 6px 6px 0px 6px #03967B;
+    }
+  }
+  
+}
+
+#test_square{
+  background-color: #03967B;
 }

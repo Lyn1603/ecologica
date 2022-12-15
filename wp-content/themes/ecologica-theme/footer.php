@@ -11,7 +11,7 @@
 
 ?>
 
-<link rel="stylesheet" href="wp-content/themes/ecologica-theme/built.css">
+
 	<footer id="colophon" class="site-footer">
 		<section class="top">
             <div class="left-footer">

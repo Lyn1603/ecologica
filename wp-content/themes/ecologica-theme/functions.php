@@ -139,6 +139,7 @@ add_action( 'widgets_init', 'ecologica_theme_widgets_init' );
  */
 function ecologica_theme_scripts() {
 	wp_enqueue_style( 'ecologica-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'ecologica-build-style', get_stylesheet_directory_uri(). '/built.css', array(), _S_VERSION );
 	wp_style_add_data( 'ecologica-theme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'ecologica-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
