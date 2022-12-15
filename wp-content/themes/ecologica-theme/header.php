@@ -32,10 +32,11 @@
         "class" => "customimg"
     ]);    
     ?>
-		<h1> Ecologica </h1>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
+		<h1> Ecologica </h1>
+
 			<?php
 			wp_nav_menu(
 				array(
@@ -43,8 +44,8 @@
 				)
 			);
 			?>
-
+		<button id="candidatez"> Candidatez </button>
 		</nav><!-- #site-navigation -->
-		<button> Candidatez </button>
+		
 
 	</header><!-- #masthead -->

@@ -1,8 +1,14 @@
 .menu, ul {
+  position: relative;
+  left: 200px;
   display: inline-flex;
-  text-decoration: none;
-  margin-left: 20%;
+  gap: 70px;
+}
+
+header #candidatez {
+  position: relative;
   gap: 40px;
+  left: 700px;
 }
 
 li {
