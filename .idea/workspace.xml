@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5e15f33-deb8-47a7-9b8e-47839ebb9ded" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/template-parts/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/blue/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/blue/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/coffee/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/coffee/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/ectoplasm/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/ectoplasm/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/light/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/light/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/midnight/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/midnight/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/modern/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/modern/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/ocean/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/ocean/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/colors/sunrise/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/colors/sunrise/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ecologica-theme/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IIyYmv5KeSWVtduz8sClrA93sO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/laragon/www/Ecologica",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5e15f33-deb8-47a7-9b8e-47839ebb9ded" name="Changes" comment="" />
+      <created>1669883441188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669883441188</updated>
+      <workItem from="1669883442529" duration="3507000" />
+      <workItem from="1669964495776" duration="15000" />
+      <workItem from="1670439441893" duration="110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

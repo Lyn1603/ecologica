@@ -12,6 +12,7 @@
  * @package ecologica-theme
  */
 get_header();
+<<<<<<< HEAD
 ?>
         <link rel="stylesheet" href="wp-content/themes/ecologica-theme/style.css">
         <br>
@@ -50,6 +51,12 @@ get_header();
 
       
       
+=======
+the_content();
+?>
+   
+
+>>>>>>> lynda
 
     </main><!-- #main -->
 

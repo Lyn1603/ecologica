@@ -16,6 +16,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+<<<<<<< HEAD
+=======
+	<link rel="stylesheet" href="wp-content/themes/ecologica-theme/style.css">
+>>>>>>> lynda
 
 	<?php wp_head(); ?>
 </head>
@@ -23,6 +27,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
+<<<<<<< HEAD
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ecologica-theme' ); ?></a>
 
 	<header id="masthead" class="site-header">
@@ -56,4 +61,31 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+=======
+
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+		<?php
+    	echo wp_get_attachment_image(83, "full", false, [
+        "class" => "customimg",
+		
+		
+    ]);    
+    ?>
+			<h1>Ecologica</h1>
+		</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation" style="position: relative; left: 200px ;">
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'Header',
+				)
+			);
+			?>
+		 <button id="candidatez"> Candidatez </button>
+		</nav><!-- #site-navigation -->
+		
+
+>>>>>>> lynda
 	</header><!-- #masthead -->
