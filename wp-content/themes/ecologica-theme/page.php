@@ -13,10 +13,7 @@
  */
 
 get_header();
-<<<<<<< HEAD
-=======
 the_content();
->>>>>>> lynda
 ?>
 
 	<main id="primary" class="site-main">
@@ -26,8 +23,5 @@ the_content();
 	</main><!-- #main -->
 
 <?php
-<<<<<<< HEAD
 get_sidebar();
-=======
->>>>>>> lynda
 get_footer();
