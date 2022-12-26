@@ -34,7 +34,7 @@
 			<h1>Ecologica</h1>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" style="position: relative; left: 200px ;">
+		<nav id="site-navigation" class="main-navigation" style="position: relative; left: 100px ;">
 			<?php
 			wp_nav_menu(
 				array(
@@ -42,7 +42,7 @@
 				)
 			);
 			?>
-		 <button id="candidatez"> Candidatez </button>
+		 <button id="candidatez" style="position: relative; left: 300px ;"> Candidatez </button>
 		</nav><!-- #site-navigation -->
 		
 
